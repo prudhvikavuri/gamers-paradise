@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+.App{
+text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.results{
+  display : flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.games{
+  word-wrap: break-word;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.developers{
+  word-wrap: break-word;
+}
+
+nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  background: rgb(38, 155, 194);
+  color: aliceblue;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  border-radius: 10px;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+.button {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+  position: left;
+}
+.button:hover {
+	background-color:#eb675e;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.homePage{
+	padding:10px 20px;
+  align-items: center;
+}
+.homePage_img{
+  align-content: right;
+  max-width: 30%;
+  min-width: 30%;
+}
+.homePage_img2{
+  justify-content: right;
+  max-width: 50%;
+  min-width: 50%;
+}
+.homePageDiv{
+  align-content: center;
+  text-align: center;
+  padding:10px 20px;
+  word-wrap: break-word;
+  min-width: 20%;
+  max-width: 50%;
+}
+.pageHeading{
+  text-align: center;
+  text-shadow:0px 5px 2px brown;
+  font: size 50%;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pageSubHeading{
+  text-align: center;
+  font: size 50%;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagePara {
+  text-align: center;
+  font: size 50%;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

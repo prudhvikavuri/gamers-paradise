@@ -1,0 +1,25 @@
+/* This CSS is only for Results.js -> check CSS modules for more */
+.developer{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(255, 73, 73);
+    margin: 20px;
+    display: flex;
+    grid-gap: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ff9393;
+    align-items: center;
+    max-width: 20%;
+    min-width: 20%;
+
+}
+.details{
+    text-align: left;
+    list-style: none;
+}
+.image{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
