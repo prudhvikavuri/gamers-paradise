@@ -6,10 +6,7 @@ const DeveloperDetails =({name, image, gameCount, topGames, positions}) => {
 
     return(
         <div className ={style.developer}>
-            <div>
             <h3>{name}</h3>
-            </div>
-            <div className ={style.details}>            
             <img src={image} alt="" className ={style.image}/>
             <p>Number of Games : {gameCount}</p>
             <h4>Top Games : </h4>
@@ -24,7 +21,6 @@ const DeveloperDetails =({name, image, gameCount, topGames, positions}) => {
                    <p key={Math.random()}> {position.name}</p>
                 ))}
             </ul>
-            </div>
         </div>
     );
 };

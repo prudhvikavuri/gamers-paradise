@@ -6,7 +6,7 @@ function About() {
   return (
     <div className = "about">
         <h1 className ="pageHeading">About Us!</h1>
-    <img src="aboutUs.png" alt="" />
+    <img src="aboutUs.png" alt="" className = "aboutImg"/>
     </div>
   );
 }

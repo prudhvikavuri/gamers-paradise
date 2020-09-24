@@ -109,3 +109,6 @@ nav{
   justify-content: space-around;
   align-items: center;
 }
+.aboutImg{
+  max-width: 90%;
+}

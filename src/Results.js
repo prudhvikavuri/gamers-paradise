@@ -6,10 +6,7 @@ import { Link } from 'react-router-dom';
 const Results =({name, releasedDt, image, rating, ratingCount, genres, id }) => {
     return(
         <div className ={style.result}>
-            <div>
             <h3>{name}</h3>
-            </div>
-            <div className ={style.details}>            
             <img src={image} alt="" className ={style.image}/>
             <p>Released Date : {releasedDt}</p>
             <p>Rating : {rating}</p>
@@ -24,7 +21,6 @@ const Results =({name, releasedDt, image, rating, ratingCount, genres, id }) => 
             <p key ={id}>
                 <Link to={`/games/${id}`}>List Developers</Link>
             </p>
-            </div>
         </div>
     );
 };
